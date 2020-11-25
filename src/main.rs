@@ -15,7 +15,7 @@ fn main() {
         .nth(1)
         .expect("Expected PID as argument")
         .parse()
-        .expect("PID must be a valid positive numer");
+        .expect("PID must be a valid positive number");
 
     let payload = env::args_os().nth(2).expect("Expected a payload to inject");
 
